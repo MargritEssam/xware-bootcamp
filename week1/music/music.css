@@ -247,10 +247,14 @@ main .btn3:hover{
     font-size: 20px;
 }
 .buttom img{
-    width: 200px;
+    width: 400px;
     height: 100px;
    margin-top: 80px;
+   transition: height 450ms ease-in-out;
 }
+ .buttom img:hover {
+    height: 300px;
+    }    
 
 footer {
     grid-area: footer;
@@ -282,8 +286,16 @@ footer button{
     font-size: large;
     
 }
+
 footer button:hover{
     background-color: #ff3500;
+}
+
+footer h3{
+    text-align: center;
+    font-size: 25px;
+    color:#523643 ;
+    font-style: italic;
 }
 
 
