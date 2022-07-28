@@ -1,0 +1,289 @@
+import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;0,900;1,500;1,600&display=swap');
+.contanier{
+    display: grid;
+    margin: auto;
+   
+    position: relative;
+    grid-template-columns: 150px auto 200px;
+    grid-template-rows: 150px 600px 200px ;
+  
+    grid-template-areas:
+    "header header header header "
+    "main  main main main"
+    "buttom buttom buttom buttom"
+    "footer footer footer footer footer";
+    border-radius: 50px;
+}
+
+header{
+    
+    grid-area: header;
+    height: 600px;
+    text-align: center;
+    border-radius: 5px;
+    bottom: 5px;
+    background: url(https://www.vodacom.co.za/sites/vodacomcoza/files/styles/extra_large_landscape/public/2021-06/add-to-bill-music-banner.jpg?itok=Ohb_VCQK)no-repeat;
+    background-size: 1750px ;
+    width: 100%;
+    
+
+    
+
+}
+ header h2{
+    text-align: center;
+    color: #efefef;
+    font-size: 40px;
+    color: #efefef;
+    word-spacing: 1px;
+    padding: 170px;
+    
+    
+ }
+ header  .btn0 {
+    background-color:#efefef;
+    border-radius: 20px;
+    width: 210px;
+    height: 46px;
+    color:  #454558 ;
+    font-size: large;
+ }
+header .btn0:hover{
+    background-color: rgba(188,142,202,255);
+}
+header .logo h3{
+    
+    line-height: 75px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: 20px;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(#c03a9d, #efefef);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    float: left;
+}
+header .logo h3:hover{
+    color: #efefef ;
+}
+
+header  .btn1{
+    background-color:#efefef;
+    border-radius: 20px;
+    width: 160px;
+    height: 40px;
+    color:  #454558 ;
+    font-size: large;
+    /* margin-left:800px; */
+    float:right;
+    margin-right: 100px;
+    margin-top: 35px;
+}
+header .btn1:hover{
+    background-color: rgba(188,142,202,255);
+}
+
+header .btn2{
+    background-color:#efefef;
+    border-radius: 20px;
+    width: 160px;
+    height: 40px;
+    color:  #454558 ;
+    font-size: large;
+    float: right;
+    margin-top: 35px;
+
+}
+header .btn2:hover{
+    background-color: rgba(188,142,202,255);
+}
+
+main{
+    grid-area: main;
+    height: 600px;
+    text-align: center;
+    border-radius: 5px;
+    bottom: 5px;
+    width: 100%;
+    
+}
+
+form {
+    color: #555;
+    display: block;
+    padding: 2px;
+    
+    border-radius: 5px;
+   
+}  
+
+input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    width: 600px;
+    border-color: #c03a9d;
+
+    background-color:#efefef ;
+    margin-top: 20px;
+  
+
+  }
+  
+  input[type="search"]::placeholder {
+    color: #bbb;
+  }
+
+  button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  button[type="submit"]:hover {
+    opacity: 1;
+  }
+
+  button[type="submit"]:focus,
+input[type="search"]:focus {
+  box-shadow: 0 0 3px 0 #1183d6;
+  border-color: #1183d6;
+  outline: none;
+}
+
+main .h3{
+ text-align: center;
+}
+
+main .btn3{
+    background-color:#d0b3b4;
+    border-radius: 5px;
+    width: 200px;
+    height: 33px;
+    color:  #454558 ;
+    font-size: large;
+    
+    
+
+}
+main .btn3:hover{
+    background-color: rgba(188,142,202,255);
+}
+
+.siges{
+    text-align: center;
+    font-size: -large;
+    word-spacing: 3px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#videoal table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn4{
+    background-color:#d0b3b4;
+    border-radius: 5px;
+    width: 230px;
+    height: 33px;
+    color:  #454558 ;
+    font-size: large;
+}
+ .btn4:hover{
+    background-color: rgba(188,142,202,255);
+}
+
+.buttom {
+    grid-area: buttom;
+    height: 400px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+  
+    margin-top: 340px;
+    
+    
+}
+
+
+.buttom h2{
+    text-transform: capitalize;
+    color: black;
+    font-style: 22px;
+    font-style: italic;
+   
+   
+}
+.buttom p{
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 20px;
+    font-style: italic;
+}
+.buttom  .btns{
+    font-size:24px;
+}
+.buttom .btns button{
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+}
+.buttom img{
+    width: 200px;
+    height: 100px;
+   margin-top: 80px;
+}
+
+footer {
+    grid-area: footer;
+    height: 400px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+  margin-bottom: 140px;
+
+}
+footer h1{
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    color: #523643;
+}
+footer h2{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color:#523643;
+}
+footer button{
+    background-color:#d0b3b4;
+    border-radius: 5px;
+    width: 200px;
+    height: 33px;
+    color: white ;
+    font-size: large;
+    
+}
+footer button:hover{
+    background-color: #ff3500;
+}
+
+

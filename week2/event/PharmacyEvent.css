@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(245, 229, 200);
+}
+.container{
+    background-color: rgb(33, 156, 33);
+    margin: auto;
+    
+}
+.container .box h1{
+    text-transform: uppercase;
+    text-decoration: solid;
+    text-align: left;
+    color: azure;
+    font-weight: 600;
+    font-size: xx-large;
+
+
+}
+.container .box h1{
+    text-transform: uppercase;
+    text-decoration: solid;
+    text-align: left;
+    color: azure;
+    font-weight: 600;
+    font-size: xx-large;
+    font-style: italic;
+
+
+}
+.container .box h3{
+    text-transform:capitalize;
+    text-decoration: solid;
+    text-align: left;
+    color: azure;
+    font-weight: 600;
+    font-size: x-large;
+
+
+}
+.contant h2{
+    font-size: x-larger;
+    text-transform: capitalize;
+    color: black;
+    word-spacing: .2px;
+}
+.contant p{
+    
+}
+
+.contant .submit{
+    color:rgb(33, 156, 33);
+   
+    text-decoration: none;
+}
+.month a{
+    text-decoration: none;
+    color: rgb(33, 156, 33);
+    word-spacing: 2px;
+
+}
