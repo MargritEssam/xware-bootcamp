@@ -1,6 +1,6 @@
 import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;0,900;1,500;1,600&display=swap');
 body{
-    background-color: #e0dce3;
+    background-color: #dcd0e4;
 }
 .contaner{
     display: grid;
@@ -93,6 +93,7 @@ nav .btn #watch{
     margin-top:-10px;
     color: rgba(255,255,255,255);
     box-shadow:#ffffff;
+    margin-right: 10px;
 
 }
 
@@ -188,13 +189,16 @@ main h3{
     font-size: 20px;
     
 
+
 }
+
  .left a{
     text-decoration: none;
+    color: black;
 }
 
 .left a:hover{
-    background-color:  rgba(221,221,221,255);
+    background-color:  #660088;
 
 
 }
